@@ -1,15 +1,5 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Shop Homepage v5.0.6 (https://startbootstrap.com/template/shop-homepage)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -4287,6 +4277,28 @@ textarea.form-control-lg {
   border-bottom-right-radius: var(--bs-card-inner-border-radius);
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
 }
+/* Esta NUEVA ===================================  */
+/* Estilo personalizado para el botón "Agregar al Carrito" */
+.seccion-productos .btn-agregar-carrito {
+  /* Colores */
+  background-color: #FFC107;
+  /* Color de fondo naranja */
+  color: #333;
+  /* Color del texto negro */
+  border-color: #FFC107;
+  /* Color del borde naranja */
+
+  /* Hover */
+  &:hover {
+    background-color: #FFA000;
+    /* Color de fondo naranja más oscuro al pasar el mouse */
+    border-color: #FFA000;
+    /* Color del borde naranja más oscuro al pasar el mouse */
+  }
+}
+
+/* ============================================================ */
+
 
 .card-group > .card {
   margin-bottom: var(--bs-card-group-margin);
