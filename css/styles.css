@@ -4279,7 +4279,7 @@ textarea.form-control-lg {
 }
 /* Esta NUEVA ===================================  */
 /* Estilo personalizado para el botón "Agregar al Carrito" */
-.seccion-productos .btn-agregar-carrito {
+.btn-agregar-carrito {
   /* Colores */
   background-color: #FFC107;
   /* Color de fondo naranja */
