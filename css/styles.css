@@ -725,7 +725,7 @@ button:not(:disabled) {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none
+  list-style: none;
 }
 
 .navbar-nav .nav-link.active {
