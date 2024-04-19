@@ -300,6 +300,35 @@ button:not(:disabled) {
   }
 }
 
+#carrito{
+  width: 100%;
+  align-items: end;
+  display: flex;
+  justify-content: end;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+#carrito-cantidad{
+  display: flex;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color:black;
+  font-style:oblique;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+}
+
 .container {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
