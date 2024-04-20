@@ -19,10 +19,9 @@ td button i {
     color: #20201d;
 }
     
-}
 
 .modal-header {
-    background-color: #efc90b;
+    background-color: #e6c004;
 }
 
 .modal-body form {
@@ -106,6 +105,7 @@ form .inputField>div input {
 /* Ajusta el valor según el espacio que desees */
 footer {
     padding-top: 400px;
+    opacity: 0.5;
 }
 
 #readData form .inputField>div input {

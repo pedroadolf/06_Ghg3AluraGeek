@@ -46,6 +46,7 @@
                             <th>Nombre</th>
                             <th>Descripción</th>
                             <th>Precio</th>
+                            <th>Fecha de Alta</th>
                         </tr>
                     </thead>
                     <tbody id="data"></tbody>
@@ -87,6 +88,10 @@
                                 <input type="number" step="0.01" name="" id="precio" min="0.00" max="100000.00"
                                     required>
                             </div>
+                            <div>
+                                <label for="sDate">Fecha de Alta:</label>
+                                <input type="date" name="" id="sDate" required>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -123,6 +128,10 @@
                                 <label for="showPrecio">Precio (MXN):</label>
                                 <input type="number" step="0.01" name="" id="showPrecio" min="0.00" max="100000.00"
                                     required>
+                            </div>
+                            <div>
+                                <label for="sDate">Fecha de Alta:</label>
+                                <input type="date" name="" id="showsDate" disabled>
                             </div>
                         </div>
                     </form>
