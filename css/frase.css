@@ -1,0 +1,106 @@
+#fraseDelDia {
+  scroll-behavior: smooth;
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+}
+
+#frase h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 3rem;
+  /* Ajusta el tamaño de la fuente según tus necesidades */
+}
+
+#frase h2 {
+  color: #494646;
+  font-size: 1rem;
+  padding-top: 80px;
+  text-align: center;
+  /* Ajusta el tamaño de la fuente según tus necesidades */
+}
+
+.btn {
+  font-size: 20px;
+  /* Ajusta el tamaño de la fuente según tus necesidades */
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#svgFrame {
+  position: absolute;
+  z-index: -1;
+}
+
+.quotes {
+  position: absolute;
+  top: 40%;
+  /* Ajusta la posición vertical según tus necesidades */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  /* Ajusta el ancho según tus necesidades */
+  font-size: 1rem;
+  /* Ajusta el tamaño de la fuente según tus necesidades */
+}
+
+.footer {
+  font-weight: bold;
+}
+
+@media (max-width: 720px) {
+  h1 {
+    font-size: 1rem;
+    /* Ajusta el tamaño de la fuente según tus necesidades */
+  }
+
+  h2 {
+    font-size: 0.5rem;
+    /* Ajusta el tamaño de la fuente según tus necesidades */
+  }
+
+  .frame {
+    padding-top: 0rem !important;
+  }
+
+  .quotes {
+    top: 10%;
+    /* Ajusta la posición vertical según tus necesidades */
+    width: 200px;
+    /* Ajusta el ancho según tus necesidades */
+    font-size: 0.6rem;
+    /* Ajusta el tamaño de la fuente según tus necesidades */
+  }
+
+  p {
+    margin-bottom: 2px;
+    /* Ajusta el margen inferior según tus necesidades */
+  }
+
+  svg {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 1rem;
+    /* Ajusta el tamaño de la fuente según tus necesidades */
+  }
+
+  h2 {
+    font-size: 0.6rem;
+    /* Ajusta el tamaño de la fuente según tus necesidades */
+  }
+
+  .quotes {
+    top: 10%;
+    /* Ajusta la posición vertical según tus necesidades */
+    width: 200px;
+    /* Ajusta el ancho según tus necesidades */
+    font-size: 0.4rem;
+    /* Ajusta el tamaño de la fuente según tus necesidades */
+  }
+}
