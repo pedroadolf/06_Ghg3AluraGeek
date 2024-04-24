@@ -1,3 +1,28 @@
+/* Nav */
+.navbar-brand {
+    padding-right: 40px;
+}
+
+#templatemo_nav_top {
+    min-height: 40px;
+}
+
+#templatemo_nav_top * {
+    font-size: 1.5em !important;
+}
+
+#templatemo_main_nav a {
+    color: #212934;
+}
+
+#templatemo_main_nav a:hover {
+    color: #f0c20d;
+}
+
+#templatemo_main_nav .navbar .nav-icon {
+    margin-right: 10px;
+}
+
 body {
 
     h1,
@@ -8,6 +33,19 @@ body {
     h6 {
         font-family: "Lato", sans-serif
     }
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/cover-img-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#titulo,
+#subtitulo {
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+    color:white;
 }
 
 .w3-bar {
@@ -28,4 +66,3 @@ body {
     color: #c9954c;
     display: inline-block;
 }
-
