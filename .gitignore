@@ -1,6 +1,5 @@
-
-/Bootstrap5
 /.vscode
-vercel.json
-/package.json
+/Bootstrap5
 /node_modules
+/package.json
+vercel.json
